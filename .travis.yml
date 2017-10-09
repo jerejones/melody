@@ -3,7 +3,8 @@ sudo: required
 go:
 - 1.9
 install:
-  - go get -t -v ./...
+  - go get -t -v
   - go get github.com/gorilla/websocket
 script:
   - go test -v -coverprofile=melody.coverprofile
+  - goveralls -coverprofile=melody.coverprofile -service=travis-ci
