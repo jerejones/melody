@@ -7,4 +7,3 @@ install:
   - go get github.com/gorilla/websocket
 script:
   - go test -coverprofile=melody.coverprofile
-  - goveralls -coverprofile=melody.coverprofile -service=travis-ci
