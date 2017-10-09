@@ -6,4 +6,4 @@ install:
   - go get -t -v ./...
   - go get github.com/gorilla/websocket
 script:
-  - go test -coverprofile=melody.coverprofile
+  - go test -v -coverprofile=melody.coverprofile
