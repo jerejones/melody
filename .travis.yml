@@ -4,7 +4,7 @@ go:
 - 1.9
 install:
   - go get -t -v
-  - go get github.com/gorilla/websocket
+  - go get github.com/mattn/goveralls
 script:
   - go test -v -coverprofile=melody.coverprofile
   - goveralls -coverprofile=melody.coverprofile -service=travis-ci
