@@ -1,8 +1,8 @@
 # melody
 
-[![Build Status](https://travis-ci.org/olahol/melody.svg)](https://travis-ci.org/olahol/melody)
-[![Coverage Status](https://img.shields.io/coveralls/olahol/melody.svg?style=flat)](https://coveralls.io/r/olahol/melody)
-[![GoDoc](https://godoc.org/github.com/olahol/melody?status.svg)](https://godoc.org/github.com/olahol/melody)
+[![Build Status](https://travis-ci.org/jerejones/melody.svg)](https://travis-ci.org/jerejones/melody)
+[![Coverage Status](https://img.shields.io/coveralls/jerejones/melody.svg?style=flat)](https://coveralls.io/r/jerejones/melody)
+[![GoDoc](https://godoc.org/github.com/jerejones/melody?status.svg)](https://godoc.org/github.com/jerejones/melody)
 
 > :notes: Minimalist websocket framework for Go.
 
