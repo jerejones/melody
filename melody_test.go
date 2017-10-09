@@ -263,6 +263,8 @@ func TestMetadata(t *testing.T) {
 			return false
 		}
 
+		// sometimes computers are *really* fast. force a time diff
+		time.Sleep(1 * time.Millisecond)
 		diff := int(time.Now().UnixNano()) - stamp
 
 		if diff <= 0 {
